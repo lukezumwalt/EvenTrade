@@ -7,6 +7,7 @@ const Menu = () => (
   <>
   <p><a href='#home'>Home</a></p>
   <p><a href='#wet'>What is EvenTrade?</a></p>
+  <p><a href='#possibility'>Possibilities</a></p>
   <p><a href='#blog'>Listings</a></p>
   </>
 )
