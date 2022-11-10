@@ -24,12 +24,10 @@ const Header = () => {
           <img src={people} alt='people'/>
           <p>0 people requested access in the last 24 hours</p>
         </div>
-
-        <div className='eventrade__header-image'>
-          <img src={logo} alt='logo'/>
-        </div>
       </div>
-      Header
+      <div className='eventrade__header-image'>
+        <img src={logo} alt='logo'/>
+      </div>
     </div>
   )
 }
