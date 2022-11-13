@@ -4,7 +4,7 @@ import { Feature } from '../../components';
 
 const WhatEvenTrade = () => {
   return (
-    <div className='eventrade__whateventrade section__margin' id="whateventrade">
+    <div className='eventrade__whateventrade section__margin' id="wet">
       <div className='eventrade__whateventrade-feature'>
         <Feature title='What is Eventrade?' text='lorem ipsem'/>
       </div>

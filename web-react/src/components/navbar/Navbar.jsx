@@ -7,7 +7,7 @@ const Menu = () => (
   <>
   <p><a href='#home'>Home</a></p>
   <p><a href='#wet'>What is EvenTrade?</a></p>
-  <p><a href='#possibility'>Possibilities</a></p>
+  <p><a href='#highlights'>Highlights</a></p>
   <p><a href='#blog'>Listings</a></p>
   </>
 )
@@ -26,7 +26,7 @@ const Navbar = () => {
         </div>
       </div>
       <div className='eventrade__navbar-sign'>
-        <p>Sign in</p>
+        <p><a href='login'>Sign in</a></p>
         <button type='button'>Sign up</button>
       </div>
       <div className='eventrade__navbar-menu'>
@@ -39,7 +39,7 @@ const Navbar = () => {
             <div className='eventrade__navbar-menu_container-links'>
               <Menu />
               <div className='eventrade__navbar-menu_container-links-sign'>
-                <p>Sign in</p>
+                <p><a href='login'>Sign in</a></p>
                 <button type='button'>Sign up</button>
               </div>
             </div>
