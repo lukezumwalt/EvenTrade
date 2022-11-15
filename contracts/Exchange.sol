@@ -8,11 +8,15 @@ contract Exchange {
 
     // Constructor
     constructor() public {
-        ticketName = "deadAndCompany";
+        eventName = "Billy Strings";
+        eventDate = "11/11/22";
+        ticketHash = "";
     }
     
     // Store ticket information
-    string public ticketName;
+    string public eventName;
+    string public eventDate;
+    string public ticketHash;
 
     // Store sale information
 
