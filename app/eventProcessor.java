@@ -1,7 +1,5 @@
 package app;
 
-import java.util.Arrays;
-
 import app.reference.auxiliary;
 
 public class eventProcessor {

@@ -4,6 +4,7 @@ import java.util.Arrays;
 import java.util.List;
 
 public class auxiliary {
+    //  ISO 4217 Currency Naming Standard List of Accepted Currencies
     public static List<String> acceptedCurrencies = Arrays.asList(
         "AED",
         "AFN",
