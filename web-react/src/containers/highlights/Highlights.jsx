@@ -4,20 +4,20 @@ import './highlights.css';
 
 const featuresData = [
   {
-    title: 'Event 1',
-    text: 'Event description'
+    title: 'New York Knicks at Denver Nuggets',
+    text: 'Wednesday, November 16th @ 8:00pm : Denver Nuggets play New York Knicks at Ball Arena'
   },
   {
-    title: 'Event 2',
-    text: 'Event description'
+    title: 'Liquid Stranger',
+    text: 'Thursday, November 17th @ 7:30pm: Liquid Stranger headlines with openers: Kill the Noise, Jantsen b2b ZEKE BEATS, TVBOO, Sully, Drinkurwater at Mission Ballroom, Denver CO.'
   },
   {
-    title: 'Event 3',
-    text: 'Event description'
+    title: 'Jake Scott',
+    text: 'Thursday, November 17th @ 8:00pm: Jake Scott headlines with openers: ROSIE and Brynn Cartell at Gothic Theatre in Denver,CO.'
   },
   {
-    title: 'Event 4',
-    text: 'Event description'
+    title: 'Barefoot in the Bathroom with The Dick Nixons, The Dirty Turkeys',
+    text: 'Thursday, November 17th @ 9:00pm: Located at Fox Theatre in Boulder, CO. '
   }
 ]
 

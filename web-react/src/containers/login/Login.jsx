@@ -28,7 +28,7 @@ const Login = ({setToken}) => {
   }
 
   return (
-    <div className='eventrade__login'>
+    <div className='eventrade__login' id='login'>
       <h1>Please Log In</h1>
     <form onSubmit={handleSubmit}>
       <label>
@@ -40,7 +40,7 @@ const Login = ({setToken}) => {
         <input type='password' onChange={e => setPassword(e.target.value)}/>
       </label>
       <div>
-        <button type='submit'>Submit</button>
+        <button type='submit'><a href='#home'>Submit</a></button>
       </div>
     </form>
     </div>
