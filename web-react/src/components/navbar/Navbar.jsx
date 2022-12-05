@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { RiMenu3Line, RiCloseLine } from 'react-icons/ri';
 import './navbar.css';
 import logo from '../../assets/logo.svg'
+import LoginButton from '../login/LoginButton';
 
 const Menu = () => (
   <>
@@ -26,7 +27,7 @@ const Navbar = () => {
         </div>
       </div>
       <div className='eventrade__navbar-sign'>
-        <p><a href='#login'>Sign in</a></p>
+        <p><LoginButton /></p>
         <button type='button'>Sign up</button>
       </div>
       <div className='eventrade__navbar-menu'>
@@ -39,7 +40,7 @@ const Navbar = () => {
             <div className='eventrade__navbar-menu_container-links'>
               <Menu />
               <div className='eventrade__navbar-menu_container-links-sign'>
-                <p><a href='#login'>Sign in</a></p>
+                <p><a href='#home'>Sign in</a></p>
                 <button type='button'>Sign up</button>
               </div>
             </div>
