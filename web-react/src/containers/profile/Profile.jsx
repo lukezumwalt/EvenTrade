@@ -10,21 +10,20 @@ const Profile = () => {
 
     return (
         isAuthenticated && (
-            <article className='eventrade__profile' id="profile">
+            <div className='eventrade__profile section__margin' id="profile">
+                <div className="eventrade__profile-feature">
+                    <Feature title = "Profile"></Feature>
+                </div>
                 <div className="eventrade__profile-heading">
                     <div className="eventrade__profile-image">
                         {user.picture && <img src={user.picture} alt={user.name} />}
-                        <div className="eventrade__profile-feature">
-                            <Feature title={user.name}></Feature>
-                        </div>
                     </div>
-                    <p>
-                        <ul>
-                            {Object.keys(user).map((objKey, i) => <li key={i}>{objKey}: {user[objKey]} </li>)}
-                        </ul>
-                    </p>
+                    <h1 className="gradient__text">{user.name}</h1>
                 </div>
-            </article>
+                <div className="eventrade__profile-container">
+                    <Feature title="Postings" text="No Tickets have been posted yet."></Feature> 
+                </div>
+            </div>
         )
     )
 }

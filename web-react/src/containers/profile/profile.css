@@ -36,15 +36,14 @@
 }
 
 .eventrade__profile-image {
-    flex: 1;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .eventrade__profile-image img {
-    width: 10%;
-    height: 10%;
+    width: 80%;
+    height: 80%;
 }
 
 .eventrade__profile-heading {
@@ -62,14 +61,18 @@
     font-weight: 800;
     max-width: 510px;
     font-family: var(--font-family);
+
 }
 
 .eventrade__profile-heading p {
+
     font-family: var(--font-family);
+    font-style: normal;
     font-weight: 500;
     font-size: 16px;
-    line-height: 30px;
-    color: var(--color-bg);
+    line-height: 22px;
+
+    color: #FFFFFF;
     cursor: pointer;
 }
 
@@ -77,6 +80,7 @@
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
+    align-items: center;
 
     margin-top: 2rem;
 }
