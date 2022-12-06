@@ -1,3 +1,5 @@
+// Based off of youtube tutorial https://www.youtube.com/watch?v=LMagNcngvcU //
+
 import React from 'react';
 import './feature.css';
 

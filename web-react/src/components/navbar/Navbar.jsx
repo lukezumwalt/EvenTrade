@@ -1,18 +1,25 @@
+// Based off of youtube tutorial https://www.youtube.com/watch?v=LMagNcngvcU //
+
 import React, { useState } from 'react';
 import { RiMenu3Line, RiCloseLine } from 'react-icons/ri';
 import './navbar.css';
 import logo from '../../assets/logo.svg'
 import LoginButton from '../login/LoginButton';
 import LogoutButton from '../login/LogoutButton';
-import Profile from '../login/Profile';
 import { useAuth0 } from "@auth0/auth0-react";
 
-const Menu = () => (
+
+const Menu = ({isLoading, error}) => (
   <>
   <p><a href='#home'>Home</a></p>
   <p><a href='#wet'>What is EvenTrade?</a></p>
   <p><a href='#highlights'>Highlights</a></p>
   <p><a href='#blog'>Listings</a></p>
+  {error && <p>Authentication Error</p>}
+  {!error && isLoading && <p>Loading...</p>}
+  {!error && !isLoading && (
+    <p><a href="#profile">Profile</a></p>
+  )}
   </>
 )
 
