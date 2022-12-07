@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+{% extends "base.html" %}
+{% block content %}
+{% load static %}
+ <link rel="stylesheet" type="text/css" href="{% static 'web-resources/css/main.css' %}" />
+
+
+<html>
+  <head>
+    
+    <div id="main" class = "center">
+    </div>
+  </head>
+  <body style="background-color:LightBlue;"> 
+
+  
+    <a class="w-block" href="{% url 'temp' %}">blurb</a> 
+    <br/>
+    <a class="w-block" href="{% url 'eventrade-home' %}">blurb</a>
+
+  </body>
+</html>
+{% endblock content %}

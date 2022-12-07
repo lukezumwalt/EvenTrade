@@ -1,0 +1,118 @@
+/* // Based off of youtube tutorial https://www.youtube.com/watch?v=LMagNcngvcU // */
+
+.eventrade__whateventrade {
+    display: flex;
+    flex-direction: column;
+
+    padding: 2rem;
+    background: var(--color-footer);
+
+    /* ff 3.6+ */
+    background:-moz-radial-gradient(circle at 8% 11%, rgba(24, 92, 130, 1) 0%, rgba(3, 29, 66, 1) 100%);
+
+    /* safari 5.1+,chrome 10+ */
+    background:-webkit-radial-gradient(circle at 8% 11%, rgba(24, 92, 130, 1) 0%, rgba(3, 29, 66, 1) 100%);
+
+    /* opera 11.10+ */
+    background:-o-radial-gradient(circle at 8% 11%, rgba(24, 92, 130, 1) 0%, rgba(3, 29, 66, 1) 100%);
+
+    /* ie 10+ */
+    background:-ms-radial-gradient(circle at 8% 11%, rgba(24, 92, 130, 1) 0%, rgba(3, 29, 66, 1) 100%);
+
+    /* global 92%+ browsers support */
+    background:radial-gradient(circle at 8% 11%, rgba(24, 92, 130, 1) 0%, rgba(3, 29, 66, 1) 100%);
+
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.eventrade__whateventrade-feature {
+    display: flex;
+}
+
+.eventrade__whateventrade-feature .eventrade__features-container__feature {
+    margin: 0;
+}
+
+.eventrade__whateventrade-feature .eventrade__features-container__feature-text {
+    max-width: 700px;
+}
+
+.eventrade__whateventrade-heading {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    margin: 4rem 0 2rem;
+}
+
+.eventrade__whateventrade-heading h1 {
+    font-size: 34px;
+    line-height: 45px;
+    font-weight: 800;
+    max-width: 510px;
+    font-family: var(--font-family);
+}
+
+.eventrade__whateventrade-heading p {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 30px;
+    color: var(--color-subtext);
+    cursor: pointer;
+}
+
+.eventrade__whateventrade-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+
+    margin-top: 2rem;
+}
+
+.eventrade__whateventrade-container .eventrade__features-container__feature {
+    flex: 1;
+    margin: 1rem;
+    min-width: 210px;
+    display: unset;
+    flex-direction: column;
+}
+
+.eventrade__whateventrade-container .eventrade__features-container_feature-text {
+    margin-top: 0.5rem;
+}
+
+@media screen and (max-width: 850px) {
+    .gpt3__whateventrade-heading {
+        flex-direction: column;
+        align-items: flex-start;
+        margin-bottom: 0rem;
+    }
+
+    .gpt3__whateventrade-heading p {
+        margin-top: 1rem;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .eventrade__whateventrade-feature .eventrade__features-container__feature {
+        flex-direction: column;
+    }
+
+    .eventrade__whateventrade-feature .eventrade__features-container_feature-text {
+        margin-top: 0.5rem;
+    }
+
+    .eventrade__whateventrade-heading h1 {
+        font-size: 28px;
+        line-height: 40px;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .whateventrade__whateventrade-container .eventrade__features-container__feature {
+        margin: 1rem 0;
+        min-width: 100%;
+    }
+}
