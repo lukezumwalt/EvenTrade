@@ -19,6 +19,8 @@ const Profile = () => {
                         {user.picture && <img src={user.picture} alt={user.name} />}
                     </div>
                     <h1 className="gradient__text">{user.name}</h1>
+                </div>
+                <div className="eventrade__profile-heading">
                     <p>You can insert a bio here</p>
                 </div>
                 <div className="eventrade__profile-container">
