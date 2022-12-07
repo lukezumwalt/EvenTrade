@@ -41,13 +41,4 @@ public class ticketProcessor {
     void generateNftId(){
         nftId = networkName + '-' + eventIndex + '-' + nftIndex;
     }
-
-    // to: blockchain wallet address of receiving entity
-    public void claimedTicket( String ticketId, String to ){
-
-    }
-
-    public void invalidatedTicket( String ticketId ){
-        
-    }
 }
