@@ -42,27 +42,6 @@ public class ticketProcessor {
         nftId = networkName + '-' + eventIndex + '-' + nftIndex;
     }
 
-    // GET TICKET ENGINE API INVOKERS
-    public void soldTicket( String eventId, String ticketId, String price ){
-
-    }
-
-    public void updateTicket( String ticketId ){
-
-    }
-
-    public void resoldTicket( String ticketId, String price ){
-
-    }
-
-    public void scannedTicket( String ticketId ){
-
-    }
-
-    public void checkedInTicket( String ticketId ){
-
-    }
-
     // to: blockchain wallet address of receiving entity
     public void claimedTicket( String ticketId, String to ){
 
