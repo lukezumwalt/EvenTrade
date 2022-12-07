@@ -49,8 +49,9 @@
 .eventrade__profile-heading {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: left;
     align-items: center;
+
 
     margin: 4rem 0 2rem;
 }
@@ -61,7 +62,6 @@
     font-weight: 800;
     max-width: 510px;
     font-family: var(--font-family);
-
 }
 
 .eventrade__profile-heading p {
