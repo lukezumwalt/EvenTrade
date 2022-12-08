@@ -14,7 +14,7 @@ Decentralized web application for exchanging event tickets between real humans.
 v18.12.1
 
 ********
-To view the frontend of our application, enter the following commands: </br?
+To view the frontend of our application, enter the following commands: </br>
 ```cd web-react``` </br >
 ``` npm start ``` </br >
 
