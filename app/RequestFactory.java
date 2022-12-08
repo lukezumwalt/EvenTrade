@@ -3,7 +3,7 @@ package app;
 import java.util.ArrayList;
 
 public class RequestFactory {
-    String getActionRequestString(String _action, ArrayList<String> items){
+    public String getActionRequestString(String _action, ArrayList<String> items){
         
         String retVal = "[{\"action\":\"";
         retVal += _action;
