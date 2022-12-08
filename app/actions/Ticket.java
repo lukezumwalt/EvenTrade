@@ -28,6 +28,8 @@ public class Ticket {
         items.add(eventId);
         items.add(eventName);
         items.add(currency);
+        items.add(ticketId);
+        items.add(price);
         String requestString = requester.getActionRequestString("soldTicket", items);
 
         HttpRequest request = HttpRequest.newBuilder()
@@ -47,6 +49,7 @@ public class Ticket {
         items.add(eventId);
         items.add(eventName);
         items.add(currency);
+        items.add(ticketId);
         String requestString = requester.getActionRequestString("updateTicket", items);
 
         HttpRequest request = HttpRequest.newBuilder()
@@ -66,6 +69,8 @@ public class Ticket {
         items.add(eventId);
         items.add(eventName);
         items.add(currency);
+        items.add(ticketId);
+        items.add(price);
         String requestString = requester.getActionRequestString("resoldTicket", items);
 
         HttpRequest request = HttpRequest.newBuilder()
@@ -85,6 +90,7 @@ public class Ticket {
         items.add(eventId);
         items.add(eventName);
         items.add(currency);
+        items.add(ticketId);
         String requestString = requester.getActionRequestString("scannedTicket", items);
 
         HttpRequest request = HttpRequest.newBuilder()
@@ -104,6 +110,7 @@ public class Ticket {
         items.add(eventId);
         items.add(eventName);
         items.add(currency);
+        items.add(ticketId);
         String requestString = requester.getActionRequestString("checkedInTicket", items);
 
         HttpRequest request = HttpRequest.newBuilder()
@@ -123,6 +130,8 @@ public class Ticket {
         items.add(eventId);
         items.add(eventName);
         items.add(currency);
+        items.add(ticketId);
+        items.add(to);
         String requestString = requester.getActionRequestString("claimedTicket", items);
 
         HttpRequest request = HttpRequest.newBuilder()
@@ -142,6 +151,7 @@ public class Ticket {
         items.add(eventId);
         items.add(eventName);
         items.add(currency);
+        items.add(ticketId);
         String requestString = requester.getActionRequestString("invalidatedTicket", items);
 
         HttpRequest request = HttpRequest.newBuilder()
