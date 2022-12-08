@@ -74,6 +74,8 @@
 
     color: #FFFFFF;
     cursor: pointer;
+    justify-content: center;
+
 }
 
 .eventrade__profile-container {

@@ -20,6 +20,9 @@ const Profile = () => {
                     </div>
                     <h1 className="gradient__text">{user.name}</h1>
                 </div>
+                <div className="eventrade__profile-heading">
+                    <p>You can insert a bio here</p>
+                </div>
                 <div className="eventrade__profile-container">
                     <Feature title="Postings" text="No Tickets have been posted yet."></Feature> 
                 </div>
